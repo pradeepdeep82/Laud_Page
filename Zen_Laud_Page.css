@@ -1,0 +1,104 @@
+.menu{
+  display: flex;
+  list-style: none;
+  font-size: small;
+}
+.menu>li{
+margin: 2%;
+}
+.menu>li:nth-child(1){
+  margin-left: 55%;
+}
+@media only screen and (max-width:425px){
+  .menu>li:nth-child(1){
+    margin-left: 0%;
+  }
+}
+.header{
+  text-align: center;
+  margin: 40% 0%;
+}
+.icon{
+ text-align: center;
+ margin-bottom: 5%;
+ }
+.icon a{
+  color: white;
+    }
+.icon>a:nth-child(1){
+background-color: rgb(224, 224, 224);
+color:rgb(63, 63, 63);
+padding: 0.5% 1%;
+}
+.icon>a:nth-child(n+1){
+  padding: 0.5% 1%;
+}
+.icon i{
+  padding-right: 1%;
+}
+.center{
+     color: white; 
+   text-align: center;
+   margin: 5% 0%;
+}
+.award>p{
+  position: absolute;
+  left: 30%;
+  top: -6px;
+  padding: 0% 2%;
+  background-color: white;
+  border: 1px solid white;
+}
+@media only screen and (min-width:768px){
+  .award>p{
+    position: absolute;
+    left: 45%;
+  }
+}
+.subawards{
+  border: 1px solid rgb(58, 56, 56);
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px;
+ }
+
+.head>h3{
+  position: absolute;
+  left: 35%;
+  top: -1%;
+  padding: 0% 2%;
+  background-color: white;
+  border: 1px solid white;
+}
+@media only screen and (max-width:320px){
+  .head>h3{
+    font-size:x-large;
+    position: absolute;
+    top: 0.1%;
+  }
+
+}
+.col-sm-6>ul{
+  padding-top: 5%;
+}
+.footer{
+  background-color: rgb(39, 39, 39);
+  color: white;
+  padding: 50px 100px;
+}
+@media only screen and (max-width:575px) {
+  .footer>div>div:nth-child(n+2){
+     border-top: 1px solid gray;
+    padding-top: 15px;
+  }
+}
+@media only screen and (min-width:576px){
+  .footer>div>div:nth-child(n+2){
+    border-left: 1px solid gray;
+  }
+}
+@media only screen and (max-width:575px) {
+  .footer{
+    padding:25px 40px;
+  }
+}
